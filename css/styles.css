@@ -1,0 +1,72 @@
+/*======================================
+
+  Universal Styling
+
+*====================================*/
+body {
+    background: linear-gradient(to right, #1c1c8e, #cea75f);
+}
+
+main {
+    background: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+header {
+    background: #333;
+}
+
+h2,
+h3,
+p {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+footer {
+    background: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.bold-blue {
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+/*======================================
+
+  Home Page Styling
+
+*====================================*/
+.entry-heading {
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.purple {
+    color: purple;
+    font-weight: bold;
+}
+
+
+/*======================================
+
+  About Page Styling
+
+*====================================*/
+.about-page h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: darkblue;
+}
